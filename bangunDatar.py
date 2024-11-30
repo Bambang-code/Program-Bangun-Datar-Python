@@ -87,7 +87,7 @@ def hitung_bangun_datar():
         ulang = input("Ingin mengulang program? (y/n): ").lower()
         if ulang != 'y':
             break
-
+#Waktu
     end_time = time.time()
     runtime = end_time - start_time
     print(f"Program selesai. Waktu eksekusi: {runtime:.2f} detik.")
